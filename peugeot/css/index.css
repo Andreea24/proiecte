@@ -39,6 +39,19 @@ h3{
 		-webkit-background-size: 100% 100%;
 		background-size:100% 100%;
 		}
+@media only screen and (max-width: 380px) {		
+.navbar-default {
+	background-color:#fff;
+	padding-bottom:30px;;
+	}
+	#home{
+		background: url(../images/bb.png) no-repeat center center;
+		margin-top:10em;
+		-webkit-background-size: 100% 100%;
+		background-size:100% 100%;
+		}
+
+		}
     .div-trans {
         margin-left: 15px; 
         margin-right: 15px; 
@@ -47,8 +60,22 @@ h3{
 		color: #000;
 		}
 	.div-trans form{
-        padding: 15px; }
-		
+        padding: 25px; }
+	
+	#imgG{
+		padding:10px;
+	}	
+	@media only screen and (max-width: 480px) {
+		#imgG{padding:0px;}
+	}
+	@media only screen and (min-width: 780px) {		
+		.div-trans {
+			float:right;
+			background-color: #e8e8e8;
+			min-height: 380px;
+			color: #000;
+			}
+	}
 	.form-group input {
 		width:85%;
 		padding: 0px 20px;
