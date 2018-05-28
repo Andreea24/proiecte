@@ -1,0 +1,167 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    background-color:#000;
+    color:#fff;
+}
+.text-center {
+    text-align:center;
+} 
+h2 {
+    color:#ff0000;
+    font-weight:900;
+    
+}
+h3{
+    color:#159238;
+    
+}
+/*=====================================
+   NAV BAR SECTION
+  ===================================*/
+
+/*Menu border Color*/
+.navbar-default {
+	background-color:#fff;
+	padding-bottom:80px;;
+	}
+/*Logo Image */
+.navbar-brand{
+    max-height:100px;
+    padding:15px;
+}
+/*=====================================
+ HOME SECTION
+    ===================================*/
+#home{
+		background: url(../images/bb.png) no-repeat center center;
+		margin-top:127px;
+		-webkit-background-size: 100% 100%;
+		background-size:100% 100%;
+		}
+    .div-trans {
+        margin-left: 15px; 
+        margin-right: 15px; 
+		background-color: #e8e8e8;
+		min-height: 380px;
+		color: #000;
+		}
+	.div-trans form{
+        padding: 15px; }
+		
+	.form-group input {
+		width:85%;
+		padding: 0px 20px;
+		margin-left:25px;
+	}
+   	.styled-select select{
+	    background: #fff;
+	    width: 85%;
+		padding: 0px 20px;
+		margin-left:25px;
+	}
+	.styled-select option{
+	border-radius:1px;}
+	.modal-footer{
+		margin-right:15px;
+		}
+	.btn-primary {
+		border-radius:initial;
+		background-color:#428bca;
+		padding: 15px 20px;
+		font-family: 'Open Sans', sans-serif;
+		font-size:20px;
+		font-weight:bold;
+		color:#fff;
+	}
+#info{
+		background-color:#000;
+		margin:35px 15px;		
+		-webkit-background-size: 100% 100%;
+		background-size:100% 100%;
+		}
+@media screen and (max-width: 800px) {
+	#home{
+	width: 100%;
+	}
+	.div-trans  {
+	width: 70%;
+	margin-left:70px;
+	}
+	
+	.div-trans  img{
+	width: 100%;
+	}
+	.form-group{
+	width: 100%;
+	}
+	}
+	
+
+/*=====================================
+ CARS SECTION
+    ===================================*/	
+	.car-list{
+	font-family:Georgia, Times New Roman, serif;
+	background: url(../images/car.png) no-repeat;
+	background-size: 100% 100%;
+	padding: 25px 70px;
+	}
+	.car-list img{
+	display: inline-block;
+	padding: 10px 5px;
+	position:relative;
+	}
+	
+	#oferta img{
+	display: inline-block;
+	width:58%; height:33%;
+    position: absolute;
+    z-index: 1;
+	}
+	.title a{
+	    color: #1677a3;
+		font-size: 23px;
+		font-weight: bold;
+		margin-left: 25px;
+	}
+	
+	.car-list  .title a:hover{
+		color:#0d4660;
+		text-decoration: none;
+		font-size:100%;
+		}
+		
+	.center-block {
+	  display: block;
+	  margin-left: 230px;
+	  margin-right: 300px;
+	}
+
+/*=====================================
+ FOOTER SECTION
+    ===================================*/		
+.navbar-footer {
+  background-color:#000;
+  margin-top:20px;
+  padding:10px;
+}
+.thumb img {
+margin-left:auto;
+margin-right:auto;
+}
+
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   right:6%;
+   z-index:100;
+   background: #d7d7d7;
+   font-size:24px;
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+}
+.scroll-top a:link,.scroll-top a:visited {
+  color:#222;
+} 
+.scroll-top a:hover{color: #f6b034;}
