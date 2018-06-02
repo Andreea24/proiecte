@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Liceul Ferdinand</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="stiluri.css">
+	<link rel="stylesheet" href="assets/webticker.css" type="text/css" media="screen"> 
+     
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.webticker.js"></script>
+
+
+<link rel="stylesheet" href="assets/webticker.css" type="text/css" media="screen"> 
+<script type="text/javascript">
+$(function(){
+	$("#webticker").webTicker();$("#webticker2").webTicker({duplicate:true, speed: 40, direction: 'right', rssurl:'http://yourwebsite.com/rss/', rssfrequency:1, startEmpty:false, hoverpause:false});	
+	
+	$("#stop").click(function(){
+		$("#webticker").webTicker('stop');
+	});
+	
+	$("#continue").click(function(){
+		$("#webticker").webTicker('cont');
+	});
+});
+</script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		 $("#myCarousel").carousel({
+			 interval : 2000,
+			 pause: false
+		 });
+	});
+	</script>
+	<script type="text/javascript">
+	$(function(){
+	$("#webticker").webTicker()({duplicate:true, speed: 40, direction: 'right', rssurl:'http://yourwebsite.com/rss/', rssfrequency:1, startEmpty:false, hoverpause:false});	
+	
+	$("#stop").click(function(){
+		$("#webticker").webTicker('stop');
+	});
+	
+	$("#continue").click(function(){
+		$("#webticker").webTicker('cont');
+	});
+});
+</script>
+  </head>
+<body>
+<div class="element1" class="img-responsive"><img src="img/arrow.png"></div>
+<div class="element2"><ul id="webticker" ><li id='item1' style="font-size:18px;">Rezultate concurs IScratch - 26 mai 2018</li></ul></div>
+</body>
+</html>
