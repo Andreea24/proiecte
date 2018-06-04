@@ -2,10 +2,10 @@ body{
 	background-color: #b5b2ae;
 	background-image: url("../img/header_wrapper.png");
 	background-position: center; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
+        background-repeat: no-repeat;
+        background-attachment: fixed;
 }
+
 /* Header 
 ----------------------------------------------*/
 #section-top {
