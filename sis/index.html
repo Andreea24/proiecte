@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Chele Stefana - Bootstrap</title>
+	<link rel="shortcut icon" href="images/user.ico" />
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="homepage">
+	<!--=== header ===-->
+<header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                       <div class="social">
+							<ul class="social-share">
+								<li><span data-toggle="tooltip"><a href="#"><img src="images/fb.png" class="img-rounded" class="img-responsive"></a></span></li>
+								<li><span data-toggle="tooltip"><a href="#"><img src="images/twitter.png" class="img-rounded" class="img-responsive"></a></span></li>
+								<li><span data-toggle="tooltip"><a href="#"><img src="images/youtube.png" class="img-rounded" class="img-responsive"></a></span></li>	
+							</ul>
+						</div>	
+					</div>
+                    <div class="col-sm-6"> 
+                            <div class="search">
+                                <form class="hidden-xs" role="form">
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="&nbsp;Cauta..." style="width:150px;height:25px;">
+                                    <button type="submit" class="btn btn-search btn-xs" style="margin-top:1em;"><span class="glyphicon glyphicon-search"></span></button>
+                                </form>
+                           </div> 
+					</div>
+                 </div> 
+            </div><!--/.container-->
+        </div><!--/.top-bar--> 
+	<!--=== navbar ===-->
+    <nav class="navbar navbar-custom" role="banner">
+		<div class="row">
+			<div class="col-lg-3"><a href="index.html" class="thumbnail"><img src="images/logo.png" class="img-circle" class="img-responsive"/></a></div>
+			<div class="col-lg-9">
+				<div class="navbar-header">
+					<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                </div>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+				  <ul class="nav navbar-nav">
+					<li class="active"><a href="index.html"><img src="images/home.png" class="img-thumbsnail" class="img-responsive"/> &nbsp;Home</a></li>
+					<li class="dropdown"><a href="spectacole.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/show.png" class="img-thumbsnail" class="img-responsive"/>&nbsp; Spectacole<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="spectacole.html#show">It's show time</a></li>
+							<li><a href="spectacole.html#roluri">Roluri</a></li>
+							<li><a href="spectacole.html#galerie">Galerie</a></li>
+						</ul>
+					</li>
+					<li><a href="premii.html"><img src="images/premii.png" class="img-thumbsnail" class="img-responsive"/>&nbsp;Premii</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/about.png" class="img-thumbsnail" class="img-responsive"/>&nbsp; Despre<span class="caret"></span></a>
+						<ul class="dropdown-menu"><li><a href="index.html#step-1">Stefana</a></li>
+						<li><a href="index.html#step-2">A.C.T. Bacau</a></li></ul>
+					</li>
+					<li><a href="index.html#contact"><img src="images/contact.png" class="img-thumbsnail" class="img-responsive"/>&nbsp;Contact</a></li>
+				   </ul>	
+				</div>	  
+			</div>
+		</div>
+    </nav> 
+</header>
+	<!--=== Carousel ===-->
+<section id="main-slider" class="no-margin">
+		<div id="myCarousel" class="carousel slide " data-interval="2500" data-ride="carousel">
+			<!-- Carousel indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>
+			</ol>   
+			<!--Carousel items  -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/carousel/poza1.jpg" alt="" class="img-responsive"/> 
+						<div class="carousel-caption">
+						 <h1 class="animated rotateInUpLeft"> Cu dragoste, Sofia </h1>
+						 <p class="animated bounceInLeft">#OneManShow</p>
+					    </div>
+				   </div>
+					<div class="item">
+						<img src="images/carousel/poza2.jpg" alt="" class="img-responsive"/>
+						<div class="carousel-caption">
+							<h1 class="animated rotateInUpLeft">What if</h1>
+							<p class="animated bounceInLeft">#T4TF</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/carousel/poza3.jpg" alt="" class="img-responsive"/>
+						<div class="carousel-caption">
+							<h1 class="animated rotateInUpLeft">Ladies night</h1>
+						    <p class="animated bounceInLeft">#IDFest </p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/carousel/poza4.jpg" alt="" class="img-responsive"/>
+						<div class="carousel-caption">
+							<h1 class="animated rotateInUpLeft">We are one for colectiv</h1>
+							<p class="animated bounceInLeft">#colectiv </p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/carousel/poza5.jpg" alt="" class="img-responsive"/>
+						<div class="carousel-caption">
+							<h1 class="animated rotateInUpLeft">Este despre noi</h1>
+							<p class="animated bounceInLeft">#AmFiTeatru </p>
+						</div>
+					</div> 
+				</div> 
+				<!-- Controls  -->
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="icon-prev"></span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<span class="icon-next"></span>
+					</a> 
+		</div>
+</section>
+<section id="blank">
+</section>
+	<!--=== Despre ===-->
+		<!--===step1===-->
+		<section id="step-1" class="section-step">
+			<div class="container step wow bounceInLeft" data-wow-duration="1000ms" data-wow-delay="600ms">
+				<div class="row">
+					<!-- Step Description Starts -->
+					<div class="col-md-6 col-sm-8 step-desc"> 					
+						<div class="col-md-12 step-details">
+							<h1 class="step-title">Chele Stefana</h1>
+							<p class="step-description">
+							<strong style="font-size:1.5em;">Stefana</strong>,<small> n. 11.09.1997</small>, este o adolescenta pasionata de teatru. 
+								Eleva in cadrul Colegiului National "Vasile Alecsandri" a descoperit ca iubeste teatrul inca din clasa a X-a cand a intrat in <i>trupa de teatru A.C.T. Bacau</i>. 
+								In cadrul trupei a reusit sa invete sa joace teatru, sa scrie, sa se acomodeze mai usor in unele situatii, a invatat extrem de multe lucruri despre teatru si nu numai, caci o trupa de teatru dezvolta omul din tine, si mai apoi actorul.
+							</p>
+						</div> <!-- End step-details -->
+					</div>
+					<!-- Step Description Ends -->
+					<div class="col-md-6 col-sm-4 step-img">
+						<img src="images/stefana.jpg" class="img-responsive"/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--=== Step-1 section Ends ===--> 
+		<!--===step2===-->
+		<section id="step-2" class="section-step">
+			<div class="container step wow bounceInRight"  data-wow-duration="1000ms" data-wow-delay="600ms">
+				<div class="row">
+					<!-- Step Description Starts -->
+					<div class="col-md-6 col-sm-8 step-desc"> 					
+						<div class="col-md-12 step-details">
+							<h1 class="step-title">A.C.T. Bacau</h1><small><p id="step-subtitle">[Among Crazy Thoughts]</p></small>
+							<p class="step-description">
+							<i style="color:#DF013A;">United we stand, divided we fall</i> este deviza trupei de teatru <strong><u>A.C.T. Bacau</u></strong>.
+							O trupa cu o veche istorie in cadrul festivalurilor de teatru destinate trupelor de liceeni care vor avea ocazia sa joace pe scenele teatrelor din intreaga tara  si sa participe la workshop-uri si training-uri sustinute de actori profesionisti si studenti la facultatile de profil.
+							Festivalurile de teatru ca <i style="color:#A4A4A4;"> Magic Fest Suceava</i>, <i style="color:#A4A4A4;"> AmFiTeatru Botosani</i>,<i style="color:#A4A4A4;">T4T Timisoara</i>,<i style="color:#A4A4A4;"> I.D.Fest Bacau </i> s.a.m.d. sunt o mare oportunitate pentru trupe sa prezinte unele dintre cele mai frumoase piese de teatru.
+							<br/><br/>De-a lungul timpului, trupa a ajutat si la crearea unor oameni minunati si actori profesionisti,ca <strong style="color:#B45F04;"> Horia Suru</strong> si <strong style="color:#B45F04;"> Razvan Krem Alexe</strong>, cu care se poate mandri mai departe.</p>
+						</div> <!-- End step-details -->
+					</div>
+					<!-- Step Description Ends -->
+					<div class="col-md-6 col-sm-4 step2-img">
+						<img src="images/act.jpg" class="img-responsive"/>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!--=== Step-2 section Ends ===-->
+	<!--Contact--> 
+	<section class="section-step" id="contact"> 
+		<div class="section-overlay"></div>
+			<div class="container contact center wow flipInY" data-wow-duration="1000ms" data-wow-delay="600ms">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="col-md-10 col-md-offset-1 center section-title"><h1>Contact:</h1></div>
+						<div class="confirmation"><p><span class="fa fa-check"></span></p></div>
+						<form class="contact-form">
+							<div class="col-lg-12">
+								<input id="name" class="input-field form-item field-name" type="text" required="required" name="contact-name" placeholder="Nume" />
+								<input id="email" class="input-field form-item field-email" type="email" required="required" name="contact-email" placeholder="Email" />
+								<input id="subject" class="input-field form-item field-subject" type="text" required="required" name="contact-subject" placeholder="Subiect" />
+								<textarea id="message" class="textarea-field form-item field-message" rows="10" name="contact-message" placeholder="Mesaj"></textarea>
+							</div>
+							<button type="submit" class="btn btn-custom btn-lg">
+							  <span class="glyphicon glyphicon-send animated infinite bounceOut" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;Trimite 
+							</button> 
+						</form>
+					</div>
+				</div>
+			</div> 
+			<br/><br/>
+	</section>
+	
+    <a href="#top" class="topHome"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2016 <a href="#top">Chele Stefana</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                       <div class="social pull-right">
+							<ul class="social-share">
+								<li><span data-toggle="tooltip"><a href="#"><img src="images/fb.png" class="img-rounded" class="img-responsive"></a></span></li>
+								<li><span data-toggle="tooltip"><a href="#"><img src="images/twitter.png" class="img-rounded" class="img-responsive"></a></span></li>
+								<li><span data-toggle="tooltip"><a href="#"><img src="images/youtube.png" class="img-rounded" class="img-responsive"></a></span></li>	
+							</ul>
+						</div>	
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+	<!--=== Contact section Ends ===-->
+<!--==== Js files ====--> 
+<script type="text/javascript" src="js/modernizr.js"></script>   
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">			
+	$(document).ready(function(){
+		 $("#myCarousel").carousel({
+			 interval : 2500,
+			 pause: false
+		 });
+	});
+</script>
+<script src="js/wow.min.js"></script>
+		  <script>
+		  new WOW().init();
+</script>
+
+</body>
+
+</html>
