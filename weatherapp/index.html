@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="main.css" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>   
+   </head>
+<body>
+    <div class="container1">
+        <form action="">
+            <input name="city" id="city" type="text">
+            <input type="button" class="btn" value="Afiseaza vremea" onclick="vreme_acum(this, event)"/>
+            <input type="button" class="btn" value="Afiseaza prognoza" onclick="vremea_prognoza(this, event)"/>   
+        </form>
+    </div><br/>
+    <div class="container2">
+        <h3 class="title">Vremea acum</h3>
+        <hr>
+        <div class="container3">
+            <ul id="child">
+                <li>&nbsp;</li>
+                <li>Descriere:</li>
+                <li>Umiditate:</li>
+                <li>Presiune:</li>
+                <li>Temperatura curenta:</li>
+                <li>Minima zilei:</li>
+                <li>Maxima zilei:</li>
+            </ul>      
+            <div id="map"></div>
+        </div>  
+    </div>
+    <div class="container2">
+        <h3 class="title">Vremea in urmatoarele zile</h3>
+        <hr>
+        <div class="listavreme_container"></div>
+    </div>
+</body>
+</html>
